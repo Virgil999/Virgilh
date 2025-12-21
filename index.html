@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virgil Horghidan - Strategic Branding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Libre+Franklin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bg: '#090517',
+              primary: '#EDEDDA', // Important text
+              secondary: '#E1E1D0', // Secondary text
+              tertiary: '#D7D7C8', // Small text
+              accent: '#F4E04D', // Button yellow (inferred from design patterns matching 'Important text' vibe but bolder)
+            },
+            fontFamily: {
+              sans: ['Libre Franklin', 'sans-serif'],
+              mono: ['IBM Plex Mono', 'monospace'],
+            },
+            backgroundImage: {
+              'gradient-blur': 'linear-gradient(to top, #090517 10%, rgba(9, 5, 23, 0.8) 40%, rgba(9, 5, 23, 0) 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #090517;
+        color: #E1E1D0;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "lottie-react": "https://esm.sh/lottie-react@2.4.0?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.292.0",
+    "framer-motion": "https://esm.sh/framer-motion@10.16.4?external=react,react-dom"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
