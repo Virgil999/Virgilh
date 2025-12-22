@@ -25,6 +25,15 @@
             },
             backgroundImage: {
               'gradient-blur': 'linear-gradient(to top, #090517 10%, rgba(9, 5, 23, 0.8) 40%, rgba(9, 5, 23, 0) 100%)',
+            },
+            animation: {
+              'marquee': 'marquee 30s linear infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-50%)' },
+              }
             }
           }
         }
