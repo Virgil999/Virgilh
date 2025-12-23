@@ -3,10 +3,22 @@ import { ArrowUpRight } from 'lucide-react';
 import { FadeIn } from './FadeIn';
 
 const projects = [
-  { name: 'Digitalya OPS', image: 'https://picsum.photos/800/600?grayscale&blur=2' },
-  { name: 'Elsewhere', image: 'https://picsum.photos/801/600?grayscale&blur=2' },
-  { name: 'ClientZen', image: 'https://picsum.photos/800/601?grayscale&blur=2' },
-  { name: 'Lonely Planet', image: 'https://picsum.photos/801/601?grayscale&blur=2' },
+  { 
+    name: 'Digitalya OPS', 
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop' 
+  },
+  { 
+    name: 'Elsewhere', 
+    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop' 
+  },
+  { 
+    name: 'ClientZen', 
+    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop' 
+  },
+  { 
+    name: 'Lonely Planet', 
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop' 
+  },
 ];
 
 export const Work: React.FC = () => {
